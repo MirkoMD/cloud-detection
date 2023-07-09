@@ -15,16 +15,7 @@
 The Sentinel-2A satellite provides high resolution multispectral images of the Earth's surface in the visible and near-infrared domain with a spatial resolution of 10m, 20m and 60m. However, these images may be affected by clouds and cloud shadows, which can cover whole areas and obstaculate the analysis of the images. It is therefore necessary to develop a cloud detection algorithm to identify the presence of clouds with high accuracy, which is the aim of this project.
 
 In particular, one of the possibile applications of such algorithm consists in the detection of clouds with the goal of masking the corresponding pixels during the creation of a composite of images taken in different dates. 
-This process allows to obtain images of the Earth's surface without clouds, or lessening their presence.
-
-There are two main approaches of using masks that perfrom cloud detection:
-1. Mask the pixels of the clouds
-2. Weight the pixels of the clouds of the image according to a confidence returned by the algorithm, so as to reduce the impact of the pixel on the final image
-
-This project will focus on the <> approach, which is the one used in the paper on which the project is based.
-
-[comment]: <> (TODO: image with the two approaches)
-
+This process allows to obtain images of the Earth's surface without clouds, or lessen their presence.
 
 [comment]: <> (collassare Dataset e Technologies in un'unica sezione source?)
 ## Dataset
